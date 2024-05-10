@@ -4,10 +4,10 @@
       "sections": {
         "hero": {
           "template": "hero",
-          "title": "Bem-vindo ao FE Template!",
-          "description": "Meu ponto de partida padrão para projetos de front-end. Mergulhe e explore a <b>estrutura de pastas e componentes meticulosamente elaborados</b> e, projetados usando as melhores práticas de Shadcn/UI. Comece a construir <b>sua próxima obra-prima</b> com <b>facilidade</b> e <b>eficiência</b>!",
+          "title": "Welcome to FE Template!",
+          "description": "My go-to starting point for front-end projects. Dive in and explore the <b>meticulously crafted folder structure</b> and <b>components</b>, designed using Shadcn/UI best practices. Start building <b>your next masterpiece</b> with <b>ease</b> and <b>efficiency</b>!",
           "action": {
-            "label": "Ir para o GitHub",
+            "label": "Go to github",
             "href": "https://github.com/Richard-Passos/fe-template",
             "color": "primary",
             "type": "solid",
@@ -15,12 +15,12 @@
           },
           "scroll": {
             "icon": "/images/caret-down.svg",
-            "description": "Role para ver mais"
+            "description": "Scroll to see more"
           },
           "block": {
             "slug": "box",
             "template": "components-nav",
-            "title": "Componentes incríveis",
+            "title": "Amazing components",
             "action": {
               "color": "muted",
               "type": null,
@@ -32,28 +32,28 @@
         },
         "whyUs": {
           "template": "one-column",
-          "title": "Por que o FE Template?",
+          "title": "Why FE template?",
           "description": null,
           "block": {
             "slug": "list",
             "template": "cards.why-us",
             "items": {
               "0": {
-                "title": "Economiza tempo",
+                "title": "Saves time",
                 "description": "Donec ullamcorper augue sed mi lobortis semper. Proin interdum.",
                 "icon": "/images/stopwatch.svg",
                 "color": "muted",
                 "type": null
               },
               "1": {
-                "title": "É realista",
+                "title": "It’s realistic",
                 "description": "Nulla facilisi. Nullam odio ex, viverra quis.",
                 "icon": "/images/globe.svg",
                 "color": "muted",
                 "type": null
               },
               "2": {
-                "title": "É simples",
+                "title": "It’s simple",
                 "description": "Nunc feugiat magna a posuere tempus. Nullam accumsan ex.",
                 "icon": "/images/check-badge.svg",
                 "color": "muted",
@@ -79,29 +79,29 @@
             },
             "items": {
               "0": {
-                "title": "100% Grátis!",
-                "description": "Para sempre.",
+                "title": "100% Free!",
+                "description": "Forever.",
                 "color": "primary",
                 "type": null,
                 "template": "cards.bold"
               },
               "1": {
-                "title": "100% Grátis!",
-                "description": "Para sempre.",
+                "title": "100% Free!",
+                "description": "Forever.",
                 "color": "muted",
                 "type": null,
                 "template": "cards.bold"
               },
               "2": {
-                "title": "100% Grátis!",
-                "description": "Para sempre.",
+                "title": "100% Free!",
+                "description": "Forever.",
                 "color": "inverted",
                 "type": null,
                 "template": "cards.bold"
               },
               "3": {
-                "title": "100% Grátis!",
-                "description": "Para sempre.",
+                "title": "100% Free!",
+                "description": "Forever.",
                 "color": "accent",
                 "type": null,
                 "template": "cards.bold"
@@ -115,8 +115,8 @@
         },
         "howWorks": {
           "template": "three-columns",
-          "title": "Como Funciona?",
-          "description": "Obtenha seu próximo projeto incrível em alguns passos.",
+          "title": "How Does it Work?",
+          "description": "Get your next masterpiece project in a few steps.",
           "block": {
             "slug": "list",
             "template": "cards.enum",
@@ -150,17 +150,17 @@
         },
         "pricing": {
           "template": "one-column",
-          "title": "Planos e Preços",
-          "description": "O repositório é 100% grátis! Esta é apenas uma seção genérica.",
+          "title": "Plans & Pricing",
+          "description": "The repository is 100% free! This is just a generic section.",
           "block": {
             "slug": "list",
             "template": "cards.pricing",
             "items": {
               "0": {
-                "title": "Básico",
-                "price": "Grátis",
+                "title": "Basic",
+                "price": "Free",
                 "action": {
-                  "label": "Comece Agora",
+                  "label": "Get Started",
                   "color": "muted",
                   "type": null,
                   "size": null
@@ -185,15 +185,15 @@
               },
               "1": {
                 "title": "Pro",
-                "price": "$0.00 / mês",
+                "price": "$0.00 / month",
                 "action": {
-                  "label": "Comece Agora",
+                  "label": "Get Started",
                   "color": null,
                   "type": null,
                   "size": null
                 },
                 "badge": {
-                  "label": "Mais popular",
+                  "label": "Most popular",
                   "color": null,
                   "type": null
                 },
@@ -219,10 +219,10 @@
                 "type": null
               },
               "2": {
-                "title": "Empresa",
-                "price": "$0.00 / mês",
+                "title": "Enterprise",
+                "price": "$0.00 / month",
                 "action": {
-                  "label": "Saiba Mais",
+                  "label": "Learn more",
                   "color": "muted",
                   "type": null,
                   "size": null
@@ -262,8 +262,8 @@
         },
         "testimonials": {
           "template": "one-column",
-          "title": "Depoimentos",
-          "description": "O que as pessoas (imaginárias) estão dizendo sobre este site.",
+          "title": "Testimonials",
+          "description": "What (imaginary) people are saying about this site.",
           "block": {
             "slug": "list",
             "template": "cards.testimonials",
@@ -272,8 +272,8 @@
                 "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo.",
                 "quoteIcon": "/images/quote.svg",
                 "author": {
-                  "name": "Ótimo Usuário",
-                  "role": "Designer de Produto",
+                  "name": "Great User",
+                  "role": "Product Designer",
                   "image": null
                 },
                 "rating": {
@@ -287,8 +287,8 @@
                 "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit ac potenti sociis, dictumst class nostra leo.",
                 "quoteIcon": "/images/quote.svg",
                 "author": {
-                  "name": "Pessoa Criativa",
-                  "role": "Proprietário de Produto",
+                  "name": "Creative Person",
+                  "role": "Product Owner",
                   "image": null
                 },
                 "rating": {
@@ -299,11 +299,11 @@
                 "type": null
               },
               "2": {
-                "description": "Astonished. Este produto é tão legal. Você deveria experimentar e atualizar para o plano Enterprise. Sem brincadeira.",
+                "description": "Astonished. This product is so cool. You should try it and upgrade to Enterprise plan. No kidding.",
                 "quoteIcon": "/images/quote.svg",
                 "author": {
-                  "name": "Revisor Real",
-                  "role": "Desenvolvedor",
+                  "name": "Real Reviewer",
+                  "role": "Developer",
                   "image": null
                 },
                 "rating": {
@@ -322,8 +322,8 @@
         },
         "faq": {
           "template": "three-columns",
-          "title": "Perguntas Frequentes",
-          "description": "Respostas para algumas perguntas que você pode ter.",
+          "title": "FAQ",
+          "description": "Answers to some questions you might have.",
           "block": {
             "slug": "box",
             "template": "accordions.faq",
@@ -353,7 +353,8 @@
             },
             "color": "muted",
             "type": null,
-            "collapsible": true
+            "mode": null,
+            "collapsible": null
           },
           "color": null,
           "type": null,
@@ -367,10 +368,10 @@
           "block": {
             "slug": "box",
             "template": "cta",
-            "title": "Sua <b>jornada</b> não deve terminar aqui.",
-            "description": "Sinta-se à vontade para ficar ligado nos meus repositórios no GitHub.",
+            "title": "Your <b>journey</b> shouldn't end here.",
+            "description": "Feel free to stay tuned with my Github repos.",
             "action": {
-              "label": "Fique ligado",
+              "label": "Stay tuned",
               "href": "https://github.com/Richard-Passos",
               "color": null,
               "type": null,
@@ -389,30 +390,30 @@
   },
   "header": {
     "menu": {
-      "title": "Modelo de FE",
-      "description": "Forma fácil de navegar entre os componentes.",
+      "title": "FE template",
+      "description": "Easy way to navigate between component.",
       "direction": "left",
-      "trigger": {
-        "label": "Alternar menu",
+      "action": {
+        "label": "Toggle menu",
         "icon": "/images/menu.svg",
         "color": "main",
         "type": null,
         "size": null
       },
       "close": {
-        "label": "Fechar menu",
+        "label": "Close menu",
         "icon": "/images/times.svg"
       }
     }
   },
   "footer": {
-    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, ullam perferendis blanditiis voluptate iusto in.",
+    "description": "Accent color is an additional color. It appears in images, highlights, hyperlinks, boxes, cards, etc.",
     "contact": {
-      "label": "Quer conversar? Envie-me uma mensagem.",
+      "label": "Wanna talk? Send me a message.",
       "icon": "/images/paperplane.svg"
     },
     "backTop": {
-      "label": "Voltar ao topo",
+      "label": "Back to the top",
       "icon": "/images/arrow-up.svg"
     },
     "copyright": {
@@ -420,7 +421,7 @@
       "href": "https://github.com/Richard-Passos"
     },
     "message": {
-      "label": "Feito com ❤️ por <a>Richard Passos</a>",
+      "label": "Made with ❤️ by <a>Richard Passos</a>",
       "href": "https://github.com/Richard-Passos"
     }
   },
@@ -429,19 +430,19 @@
       "first": "FE",
       "last": "Template"
     },
-    "summary": "O repositório definitivo de modelos de front-end.",
-    "description": "Desencadeie seus projetos de front-end com o Template FE, o ponto de partida definitivo para sua jornada de desenvolvimento web. Mergulhe em pastas meticulosamente organizadas e componentes habilmente elaborados, projetados com as melhores práticas da indústria em mente. Construa sua próxima obra-prima sem esforço e eficiência, com uma facilidade e precisão incomparáveis.",
+    "summary": "The ultimate front-end template repository.",
+    "description": "Unleash your front-end projects with FE Template, the definitive starting point for your web development journey. Dive into meticulously organized folders and expertly crafted components, designed with industry best practices in mind. Build your next masterpiece effortlessly and efficiently, with unparalleled ease and precision.",
     "email": "hi.richardp@gmail.com",
     "logo": {
       "src": "/images/logo.svg",
-      "alt": "Logotipo de Richard Passos",
+      "alt": "Richard Passos logo",
       "width": 63,
       "height": 63
     },
     "favicon": "/images/favicon.icon",
     "socials": {
       "portfolio": {
-        "label": "Portfólio",
+        "label": "Portfolio",
         "href": "https://richardp.vercel.app",
         "icon": "/images/link.svg"
       },
@@ -451,7 +452,7 @@
         "icon": "/images/github.svg"
       },
       "linkedin": {
-        "label": "LinkedIn",
+        "label": "Linkedin",
         "href": "https://www.linkedin.com/in/richardp-dev",
         "icon": "/images/linkedin.svg"
       }
@@ -461,21 +462,67 @@
     "accordion": {
       "title": "Accordion",
       "description": "Accordion",
-      "variants": [
-        { "variant": "single", "collapsible": true },
-        { "variant": "single", "collapsible": false },
-        { "variant": "single", "defaultValue": "item-1" },
-        { "variant": "multiple" },
-        { "variant": "multiple", "defaultValue": ["item-1", "item-2"] }
-      ]
+      "block": {
+        "slug": "demo",
+        "template": "accordion",
+        "icon": "/images/plus.svg",
+        "animation": "rotate135",
+        "items": {
+          "0": {
+            "title": "Is it accessible?",
+            "description": "Yes. It adheres to the WAI-ARIA design pattern."
+          },
+          "1": {
+            "title": "Is it styled?",
+            "description": "Yes. It comes with default styles that matches the other components aesthetic."
+          },
+          "2": {
+            "title": "Is it animated?",
+            "description": "Yes. It's animated by default, but you can disable it if you prefer."
+          }
+        },
+        "color": "muted",
+        "type": null
+      }
     },
     "alert": {
       "title": "Alert",
-      "description": "Alert"
+      "description": "Alert",
+      "block": {
+        "slug": "demo",
+        "template": "alert",
+        "icon": "/images/info.svg",
+        "title": "Heads up!",
+        "description": "You can add components to your app using the cli."
+      }
     },
     "alertDialog": {
       "title": "Alert dialog",
-      "description": "Alert dialog"
+      "description": "Alert dialog",
+      "block": {
+        "slug": "demo",
+        "template": "alert-dialog",
+        "title": "Are you absolutely sure?",
+        "description": "This action cannot be undone. This will permanently delete your account and remove your data from our servers.",
+        "action": {
+          "label": "Show dialog",
+          "color": null,
+          "type": null,
+          "size": null
+        },
+        "cancel": {
+          "label": "Cancel",
+          "color": null,
+          "type": null,
+          "size": "sm"
+        },
+        "confirm": {
+          "label": "Continue",
+          "color": null,
+          "type": null,
+          "size": "sm"
+        }
+      }
     },
     "aspectRatio": {
       "title": "Aspect ratio",
