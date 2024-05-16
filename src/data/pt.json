@@ -840,7 +840,35 @@
     },
     "collapsible": {
       "title": "Collapsible",
-      "description": "Collapsible"
+      "description": "Collapsible",
+      "block": {
+        "slug": "demo",
+        "template": "collapsible",
+        "title": "@{user} starred {count, plural, =0 {no repositories yet} =1 {# repository} other {# repositories}}.",
+        "user": "Richard Passos",
+        "trigger": {
+          "label": "Toggle starred repositories",
+          "color": "main",
+          "variant": "ghost",
+          "size": "xs",
+          "icon": {
+            "src": "/images/angle-up-down.svg",
+            "color": "current",
+            "animation": ""
+          }
+        },
+        "items": {
+          "0": {
+            "title": "@radix-ui/primitives"
+          },
+          "1": {
+            "title": "@radix-ui/colors"
+          },
+          "2": {
+            "title": "@stitches/react"
+          }
+        }
+      }
     },
     "combobox": {
       "title": "Combobox",
