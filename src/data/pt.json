@@ -10,11 +10,13 @@
             "label": "Go to github",
             "href": "https://github.com/Richard-Passos/fe-template",
             "color": "primary",
-            "type": "solid",
+            "variant": "solid",
             "size": null
           },
           "scroll": {
-            "icon": "/images/caret-down.svg",
+            "icon": {
+              "src": "/images/angle-down.svg"
+            },
             "description": "Scroll to see more"
           },
           "block": {
@@ -23,11 +25,9 @@
             "title": "Amazing components",
             "action": {
               "color": "muted",
-              "type": null,
-              "size": null
+              "variant": null
             },
-            "color": null,
-            "type": null
+            "color": null
           }
         },
         "whyUs": {
@@ -41,28 +41,37 @@
               "0": {
                 "title": "Saves time",
                 "description": "Donec ullamcorper augue sed mi lobortis semper. Proin interdum.",
-                "icon": "/images/stopwatch.svg",
+                "icon": {
+                  "src": "/images/stopwatch.svg",
+                  "color": "primary"
+                },
                 "color": "muted",
-                "type": null
+                "variant": null
               },
               "1": {
                 "title": "It’s realistic",
                 "description": "Nulla facilisi. Nullam odio ex, viverra quis.",
-                "icon": "/images/globe.svg",
+                "icon": {
+                  "src": "/images/globe.svg",
+                  "color": "primary"
+                },
                 "color": "muted",
-                "type": null
+                "variant": null
               },
               "2": {
                 "title": "It’s simple",
                 "description": "Nunc feugiat magna a posuere tempus. Nullam accumsan ex.",
-                "icon": "/images/check-badge.svg",
+                "icon": {
+                  "src": "/images/check-badge.svg",
+                  "color": "primary"
+                },
                 "color": "muted",
-                "type": null
+                "variant": null
               }
             }
           },
           "color": null,
-          "type": null,
+          "variant": null,
           "size": null,
           "hasPattern": true
         },
@@ -82,40 +91,40 @@
                 "title": "100% Free!",
                 "description": "Forever.",
                 "color": "primary",
-                "type": null,
+                "variant": null,
                 "template": "cards.bold"
               },
               "1": {
                 "title": "100% Free!",
                 "description": "Forever.",
                 "color": "muted",
-                "type": null,
+                "variant": null,
                 "template": "cards.bold"
               },
               "2": {
                 "title": "100% Free!",
                 "description": "Forever.",
                 "color": "inverted",
-                "type": null,
+                "variant": null,
                 "template": "cards.bold"
               },
               "3": {
                 "title": "100% Free!",
                 "description": "Forever.",
                 "color": "accent",
-                "type": null,
+                "variant": null,
                 "template": "cards.bold"
               }
             }
           },
           "color": null,
-          "type": null,
+          "variant": null,
           "size": null,
           "hasPattern": false
         },
         "howWorks": {
           "template": "three-columns",
-          "title": "How Does it Work?",
+          "title": "How does it work?",
           "description": "Get your next masterpiece project in a few steps.",
           "block": {
             "slug": "list",
@@ -124,27 +133,27 @@
               "0": {
                 "description": "Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed.",
                 "color": null,
-                "type": "clean"
+                "variant": "clean"
               },
               "1": {
                 "description": "eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis.",
                 "color": null,
-                "type": "clean"
+                "variant": "clean"
               },
               "2": {
                 "description": "volutpat est velit egestas dui id ornare arcu odio ut sem nulla pharetra diam sit amet.",
                 "color": null,
-                "type": "clean"
+                "variant": "clean"
               },
               "3": {
                 "description": "quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit.",
                 "color": null,
-                "type": "clean"
+                "variant": "clean"
               }
             }
           },
           "color": "muted",
-          "type": "solid",
+          "variant": "solid",
           "size": null,
           "hasPattern": false
         },
@@ -162,26 +171,35 @@
                 "action": {
                   "label": "Get Started",
                   "color": "muted",
-                  "type": null,
+                  "variant": null,
                   "size": null
                 },
                 "badge": null,
                 "items": {
                   "0": {
                     "description": "ipsum dolor sit",
-                    "icon": "/images/check-circle.svg"
+                    "icon": {
+                      "src": "/images/check-circle.svg",
+                      "color": "primary"
+                    }
                   },
                   "1": {
                     "description": "odio aenean sed adipiscing diam",
-                    "icon": "/images/check-circle.svg"
+                    "icon": {
+                      "src": "/images/check-circle.svg",
+                      "color": "primary"
+                    }
                   },
                   "2": {
                     "description": "ipsum consequat nisl vel",
-                    "icon": "/images/check-circle.svg"
+                    "icon": {
+                      "src": "/images/check-circle.svg",
+                      "color": "primary"
+                    }
                   }
                 },
                 "color": null,
-                "type": null
+                "variant": null
               },
               "1": {
                 "title": "Pro",
@@ -189,34 +207,46 @@
                 "action": {
                   "label": "Get Started",
                   "color": null,
-                  "type": null,
+                  "variant": null,
                   "size": null
                 },
                 "badge": {
                   "label": "Most popular",
                   "color": null,
-                  "type": null
+                  "variant": null
                 },
                 "items": {
                   "0": {
                     "description": "ipsum dolor sit",
-                    "icon": "/images/check-circle.svg"
+                    "icon": {
+                      "src": "/images/check-circle.svg",
+                      "color": "primary"
+                    }
                   },
                   "1": {
                     "description": "odio aenean sed adipiscing diam",
-                    "icon": "/images/check-circle.svg"
+                    "icon": {
+                      "src": "/images/check-circle.svg",
+                      "color": "primary"
+                    }
                   },
                   "2": {
                     "description": "ipsum consequat nisl vel",
-                    "icon": "/images/check-circle.svg"
+                    "icon": {
+                      "src": "/images/check-circle.svg",
+                      "color": "primary"
+                    }
                   },
                   "3": {
                     "description": "in aliquam sem fringilla",
-                    "icon": "/images/check-circle.svg"
+                    "icon": {
+                      "src": "/images/check-circle.svg",
+                      "color": "primary"
+                    }
                   }
                 },
                 "color": null,
-                "type": null
+                "variant": null
               },
               "2": {
                 "title": "Enterprise",
@@ -224,39 +254,54 @@
                 "action": {
                   "label": "Learn more",
                   "color": "muted",
-                  "type": null,
+                  "variant": null,
                   "size": null
                 },
                 "badge": null,
                 "items": {
                   "0": {
                     "description": "ipsum dolor sit",
-                    "icon": "/images/check-circle.svg"
+                    "icon": {
+                      "src": "/images/check-circle.svg",
+                      "color": "primary"
+                    }
                   },
                   "1": {
                     "description": "odio aenean sed adipiscing diam",
-                    "icon": "/images/check-circle.svg"
+                    "icon": {
+                      "src": "/images/check-circle.svg",
+                      "color": "primary"
+                    }
                   },
                   "2": {
                     "description": "ipsum consequat nisl vel",
-                    "icon": "/images/check-circle.svg"
+                    "icon": {
+                      "src": "/images/check-circle.svg",
+                      "color": "primary"
+                    }
                   },
                   "3": {
                     "description": "in aliquam sem fringilla",
-                    "icon": "/images/check-circle.svg"
+                    "icon": {
+                      "src": "/images/check-circle.svg",
+                      "color": "primary"
+                    }
                   },
                   "4": {
                     "description": "id venenatis a condimentum vitae sapien",
-                    "icon": "/images/check-circle.svg"
+                    "icon": {
+                      "src": "/images/check-circle.svg",
+                      "color": "primary"
+                    }
                   }
                 },
                 "color": null,
-                "type": null
+                "variant": null
               }
             }
           },
           "color": null,
-          "type": null,
+          "variant": null,
           "size": null,
           "hasPattern": false
         },
@@ -270,7 +315,10 @@
             "items": {
               "0": {
                 "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo.",
-                "quoteIcon": "/images/quote.svg",
+                "quoteIcon": {
+                  "src": "/images/quote.svg",
+                  "color": "current"
+                },
                 "author": {
                   "name": "Great User",
                   "role": "Product Designer",
@@ -278,14 +326,20 @@
                 },
                 "rating": {
                   "value": 5,
-                  "icon": "/images/star.svg"
+                  "icon": {
+                    "src": "/images/star.svg",
+                    "color": "primary"
+                  }
                 },
                 "color": "muted",
-                "type": null
+                "variant": null
               },
               "1": {
                 "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit ac potenti sociis, dictumst class nostra leo.",
-                "quoteIcon": "/images/quote.svg",
+                "quoteIcon": {
+                  "src": "/images/quote.svg",
+                  "color": "current"
+                },
                 "author": {
                   "name": "Creative Person",
                   "role": "Product Owner",
@@ -293,14 +347,20 @@
                 },
                 "rating": {
                   "value": 5,
-                  "icon": "/images/star.svg"
+                  "icon": {
+                    "src": "/images/star.svg",
+                    "color": "primary"
+                  }
                 },
                 "color": "muted",
-                "type": null
+                "variant": null
               },
               "2": {
                 "description": "Astonished. This product is so cool. You should try it and upgrade to Enterprise plan. No kidding.",
-                "quoteIcon": "/images/quote.svg",
+                "quoteIcon": {
+                  "src": "/images/quote.svg",
+                  "color": "current"
+                },
                 "author": {
                   "name": "Real Reviewer",
                   "role": "Developer",
@@ -308,15 +368,18 @@
                 },
                 "rating": {
                   "value": 5,
-                  "icon": "/images/star.svg"
+                  "icon": {
+                    "src": "/images/star.svg",
+                    "color": "primary"
+                  }
                 },
                 "color": "muted",
-                "type": null
+                "variant": null
               }
             }
           },
           "color": null,
-          "type": null,
+          "variant": null,
           "size": null,
           "hasPattern": true
         },
@@ -327,8 +390,11 @@
           "block": {
             "slug": "box",
             "template": "accordions.faq",
-            "icon": "/images/plus.svg",
-            "animation": "rotate135",
+            "icon": {
+              "src": "/images/plus.svg",
+              "animation": "rotate135",
+              "color": "current"
+            },
             "items": {
               "0": {
                 "title": "Lorem ipsum dolor sit amet, consectetu?",
@@ -352,12 +418,12 @@
               }
             },
             "color": "muted",
-            "type": null,
-            "mode": null,
-            "collapsible": null
+            "variant": "solid",
+            "type": "single",
+            "collapsible": true
           },
           "color": null,
-          "type": null,
+          "variant": null,
           "size": null,
           "hasPattern": false
         },
@@ -374,14 +440,14 @@
               "label": "Stay tuned",
               "href": "https://github.com/Richard-Passos",
               "color": null,
-              "type": null,
+              "variant": null,
               "size": null
             },
             "color": "muted",
-            "type": null
+            "variant": null
           },
           "color": null,
-          "type": "slot",
+          "variant": "slot",
           "size": null,
           "hasPattern": true
         }
@@ -395,26 +461,40 @@
       "direction": "left",
       "action": {
         "label": "Toggle menu",
-        "icon": "/images/menu.svg",
+        "icon": {
+          "src": "/images/menu.svg",
+          "color": "current"
+        },
         "color": "main",
-        "type": null,
-        "size": null
+        "variant": "ghost",
+        "size": "md"
       },
       "close": {
         "label": "Close menu",
-        "icon": "/images/times.svg"
+        "icon": {
+          "src": "/images/times.svg",
+          "color": "current"
+        },
+        "color": "inherit",
+        "variant": "ghost"
       }
     }
   },
   "footer": {
-    "description": "Accent color is an additional color. It appears in images, highlights, hyperlinks, boxes, cards, etc.",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, ullam perferendis blanditiis voluptate iusto in.",
     "contact": {
       "label": "Wanna talk? Send me a message.",
-      "icon": "/images/paperplane.svg"
+      "icon": {
+        "src": "/images/paperplane.svg",
+        "color": "current"
+      }
     },
     "backTop": {
       "label": "Back to the top",
-      "icon": "/images/arrow-up.svg"
+      "icon": {
+        "src": "/images/arrow-up.svg",
+        "color": "current"
+      }
     },
     "copyright": {
       "label": "© 2024 <a>Richard Passos</a>",
@@ -435,6 +515,9 @@
     "email": "hi.richardp@gmail.com",
     "logo": {
       "src": "/images/logo.svg",
+      "color": "main",
+      "variant": "ghost",
+      "size": "sm",
       "alt": "Richard Passos logo",
       "width": 63,
       "height": 63
@@ -444,17 +527,26 @@
       "portfolio": {
         "label": "Portfolio",
         "href": "https://richardp.vercel.app",
-        "icon": "/images/link.svg"
+        "icon": {
+          "src": "/images/link.svg",
+          "color": "primary"
+        }
       },
       "github": {
         "label": "Github",
         "href": "https://github.com/Richard-Passos",
-        "icon": "/images/github.svg"
+        "icon": {
+          "src": "/images/github.svg",
+          "color": "primary"
+        }
       },
       "linkedin": {
         "label": "Linkedin",
         "href": "https://www.linkedin.com/in/richardp-dev",
-        "icon": "/images/linkedin.svg"
+        "icon": {
+          "src": "/images/linkedin.svg",
+          "color": "primary"
+        }
       }
     }
   },
@@ -465,8 +557,11 @@
       "block": {
         "slug": "demo",
         "template": "accordion",
-        "icon": "/images/plus.svg",
-        "animation": "rotate135",
+        "icon": {
+          "src": "/images/plus.svg",
+          "color": "current",
+          "animation": "rotate135"
+        },
         "items": {
           "0": {
             "title": "Is it accessible?",
@@ -481,8 +576,7 @@
             "description": "Yes. It's animated by default, but you can disable it if you prefer."
           }
         },
-        "color": "muted",
-        "type": null
+        "color": "muted"
       }
     },
     "alert": {
@@ -491,7 +585,10 @@
       "block": {
         "slug": "demo",
         "template": "alert",
-        "icon": "/images/info.svg",
+        "icon": {
+          "src": "/images/info.svg",
+          "color": "current"
+        },
         "title": "Heads up!",
         "description": "You can add components to your app using the cli."
       }
@@ -504,49 +601,229 @@
         "template": "alert-dialog",
         "title": "Are you absolutely sure?",
         "description": "This action cannot be undone. This will permanently delete your account and remove your data from our servers.",
-        "action": {
+        "trigger": {
           "label": "Show dialog",
-          "color": null,
-          "type": null,
-          "size": null
+          "variant": "solid",
+          "size": "md"
         },
         "cancel": {
           "label": "Cancel",
-          "color": null,
-          "type": null,
+          "variant": "solid",
           "size": "sm"
         },
         "confirm": {
           "label": "Continue",
-          "color": null,
-          "type": null,
+          "variant": "solid",
           "size": "sm"
         }
       }
     },
     "aspectRatio": {
       "title": "Aspect ratio",
-      "description": "Aspect ratio"
+      "description": "Aspect ratio",
+      "block": {
+        "slug": "demo",
+        "template": "aspect-ratio",
+        "alt": "A road winding through a forest near the ocean.",
+        "src": "/images/demo.png",
+        "width": 600,
+        "height": 902
+      }
     },
     "avatar": {
       "title": "Avatar",
-      "description": "Avatar"
+      "description": "Avatar",
+      "block": {
+        "slug": "demo",
+        "template": "avatar",
+        "alt": "A road winding through a forest near the ocean.",
+        "src": "/images/demo.png",
+        "width": 600,
+        "height": 902,
+        "fallback": "RF"
+      }
     },
     "badge": {
       "title": "Badge",
-      "description": "Badge"
+      "description": "Badge",
+      "block": {
+        "slug": "demo",
+        "template": "badge",
+        "label": "I'm a badge"
+      }
     },
     "button": {
       "title": "Button",
-      "description": "Button"
+      "description": "Button",
+      "block": {
+        "slug": "demo",
+        "template": "button",
+        "label": "I'm a Button"
+      }
     },
     "calendar": {
       "title": "Calendar",
-      "description": "Calendar"
+      "description": "Calendar",
+      "block": {
+        "slug": "demo",
+        "template": "calendar",
+        "iconLeft": {
+          "src": "/images/angle-left.svg",
+          "color": "current"
+        },
+        "iconRight": {
+          "src": "/images/angle-right.svg",
+          "color": "current"
+        },
+        "iconDropdown": {
+          "src": "/images/angle-down.svg",
+          "color": "current",
+          "animation": "rotate180"
+        },
+        "fromYear": 2023,
+        "toYear": 2024
+      }
     },
     "card": {
       "title": "Card",
-      "description": "Card"
+      "description": "Card",
+      "block": {
+        "slug": "demo",
+        "template": "card",
+        "templates": {
+          "form": {
+            "title": "Create project",
+            "description": "Deploy your new project in one-click.",
+            "fields": {
+              "name": {
+                "label": "Name",
+                "optionalText": "",
+                "control": "input",
+                "type": "text",
+                "placeholder": "John Doe",
+                "defaultValue": "",
+                "description": "",
+                "config": {
+                  "string": [],
+                  "min": [
+                    2,
+                    "Name must be at leat two letters."
+                  ]
+                }
+              },
+              "framework": {
+                "label": "Framework",
+                "optionalText": "",
+                "control": "select",
+                "placeholder": "Select a framework...",
+                "defaultValue": "",
+                "description": "",
+                "icon": {
+                  "src": "/images/angle-down.svg",
+                  "color": "current",
+                  "animation": "rotate180"
+                },
+                "items": {
+                  "nextJs": {
+                    "icon": {
+                      "src": "/images/check.svg"
+                    },
+                    "label": "Next.js"
+                  },
+                  "svelteKit": {
+                    "icon": {
+                      "src": "/images/check.svg"
+                    },
+                    "label": "Svelte Kit"
+                  },
+                  "astro": {
+                    "icon": {
+                      "src": "/images/check.svg"
+                    },
+                    "label": "Astro"
+                  },
+                  "nuxtJs": {
+                    "icon": {
+                      "src": "/images/check.svg"
+                    },
+                    "label": "Nuxt.js"
+                  }
+                },
+                "config": {
+                  "string": [],
+                  "min": [
+                    2,
+                    "Please select a framework."
+                  ]
+                }
+              }
+            },
+            "cancel": {
+              "label": "Cancel",
+              "color": "main",
+              "variant": "solid",
+              "size": "sm"
+            },
+            "confirm": {
+              "label": "Confirm",
+              "color": "primary",
+              "variant": "solid",
+              "size": "sm"
+            },
+            "okToast": {
+              "title": null,
+              "description": "Project was (imaginatively) created.",
+              "action": null,
+              "icon": {
+                "src": "/images/check-circle.svg",
+                "color": "success"
+              },
+              "close": {
+                "label": "Close",
+                "icon": {
+                  "src": "/images/times.svg",
+                  "color": "current"
+                },
+                "color": "inherit",
+                "variant": "ghost"
+              },
+              "color": "muted"
+            }
+          },
+          "notifications": {
+            "title": "Notifications",
+            "description": "You have {count, plural, =0 {no notifications yet} =1 {# notification} other {# notifications}}.",
+            "action": {
+              "label": "Mark all as read",
+              "color": null,
+              "variant": null,
+              "size": null
+            },
+            "block": {
+              "title": "Push Notifications",
+              "description": "Send notifications to device.",
+              "icon": {
+                "src": "/images/bell-alert.svg",
+                "color": "current"
+              },
+              "items": {
+                "0": {
+                  "title": "Your call has been confirmed.",
+                  "createdAt": "2024-05-11T19:09:24.000Z"
+                },
+                "1": {
+                  "title": "You have a new message!",
+                  "createdAt": "2024-05-11T19:09:24.000Z"
+                },
+                "2": {
+                  "title": "Your subscription is expiring soon!",
+                  "createdAt": "2024-05-11T18:09:24.000Z"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "checkbox": {
       "title": "Checkbox",
@@ -684,15 +961,24 @@
   "themes": {
     "light": {
       "label": "Claro",
-      "icon": "/images/sun.svg"
+      "icon": {
+        "src": "/images/sun.svg",
+        "color": "current"
+      }
     },
     "dark": {
       "label": "Escuro",
-      "icon": "/images/moon.svg"
+      "icon": {
+        "src": "/images/moon.svg",
+        "color": "current"
+      }
     },
     "system": {
       "label": "Sistema",
-      "icon": "/images/settings.svg"
+      "icon": {
+        "src": "/images/settings.svg",
+        "color": "current"
+      }
     }
   },
   "locales": {
