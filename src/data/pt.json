@@ -726,25 +726,29 @@
                 "items": {
                   "nextJs": {
                     "icon": {
-                      "src": "/images/check.svg"
+                      "src": "/images/check.svg",
+                      "color": "current"
                     },
                     "label": "Next.js"
                   },
                   "svelteKit": {
                     "icon": {
-                      "src": "/images/check.svg"
+                      "src": "/images/check.svg",
+                      "color": "current"
                     },
                     "label": "Svelte Kit"
                   },
                   "astro": {
                     "icon": {
-                      "src": "/images/check.svg"
+                      "src": "/images/check.svg",
+                      "color": "current"
                     },
                     "label": "Astro"
                   },
                   "nuxtJs": {
                     "icon": {
-                      "src": "/images/check.svg"
+                      "src": "/images/check.svg",
+                      "color": "current"
                     },
                     "label": "Nuxt.js"
                   }
@@ -880,7 +884,76 @@
     },
     "combobox": {
       "title": "Combobox",
-      "description": "Combobox"
+      "description": "Combobox",
+      "block": {
+        "slug": "demo",
+        "template": "combobox",
+        "trigger": {
+          "placeholder": "Select a framework...",
+          "color": "muted",
+          "variant": "solid",
+          "size": "md",
+          "icon": {
+            "src": "/images/angle-down.svg",
+            "color": "current",
+            "animation": "rotate180"
+          }
+        },
+        "control": {
+          "placeholder": "Search a framework...",
+          "color": "main",
+          "variant": "outline",
+          "icon": {
+            "src": "/images/search.svg",
+            "color": "current"
+          }
+        },
+        "empty": "No framework found.",
+        "items": {
+          "nextJs": {
+            "icon": {
+              "src": "/images/check.svg",
+              "color": "current",
+              "animation": "zoomNFade"
+            },
+            "label": "Next.js"
+          },
+          "svelteKit": {
+            "icon": {
+              "src": "/images/check.svg",
+              "color": "current",
+              "animation": "zoomNFade"
+            },
+            "label": "SvelteKit"
+          },
+          "nuxtJs": {
+            "icon": {
+              "src": "/images/check.svg",
+              "color": "current",
+              "animation": "zoomNFade"
+            },
+            "label": "Nuxt.js"
+          },
+          "remix": {
+            "icon": {
+              "src": "/images/check.svg",
+              "color": "current",
+              "animation": "zoomNFade"
+            },
+            "label": "Remix"
+          },
+          "astro": {
+            "icon": {
+              "src": "/images/check.svg",
+              "color": "current",
+              "animation": "zoomNFade"
+            },
+            "label": "Astro"
+          }
+        },
+        "color": "main",
+        "variant": "solid"
+      }
     },
     "command": {
       "title": "Command",
