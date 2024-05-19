@@ -15,7 +15,8 @@
           },
           "scroll": {
             "icon": {
-              "src": "/images/angle-down.svg"
+              "src": "/images/angle-down.svg",
+              "color": "current"
             },
             "description": "Scroll to see more"
           },
@@ -385,15 +386,28 @@
         },
         "faq": {
           "template": "three-columns",
+          "color": null,
+          "variant": null,
+          "size": null,
+          "hasPattern": false,
           "title": "FAQ",
           "description": "Answers to some questions you might have.",
           "block": {
             "slug": "box",
             "template": "accordions.faq",
-            "icon": {
-              "src": "/images/plus.svg",
-              "animation": "rotate135",
-              "color": "current"
+            "type": "single",
+            "collapsible": true,
+            "color": "muted",
+            "variant": "solid",
+            "trigger": {
+              "color": "inherit",
+              "variant": "solid",
+              "size": "md",
+              "icon": {
+                "src": "/images/plus.svg",
+                "animation": "rotate135",
+                "color": "current"
+              }
             },
             "items": {
               "0": {
@@ -402,7 +416,7 @@
               },
               "1": {
                 "title": "Lorem ipsum dolor sit amet?",
-                "description": "Architecto beatae vitae dicta sunt explicabo. Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. <ul><li>Animi, id est laborum et dolorum fuga.</li><li>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li><li>Itaque earum rerum hic tenetur a sapiente delectus.</li></ul>"
+                "description": "Architecto beatae vitae dicta sunt explicabo. Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. <ul><li><b>Animi id</b>: est laborum et dolorum fuga.</li><li><b>Neque</b>: porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li><li><b>Itaque earum</b>: rerum hic tenetur a sapiente delectus.</li></ul>"
               },
               "2": {
                 "title": "Nam libero tempore, cum soluta?",
@@ -410,22 +424,14 @@
               },
               "3": {
                 "title": "cumque nihil impedit quo minus?",
-                "description": "Esse cillum dolore eu fugiat nulla pariatur. Accusantium doloremque laudantium, totam rem aperiam. <ol><li>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</li><li>Nihil molestiae consequatur, vel illum qui dolorem eum.</li><li>Qui officia deserunt mollit anim id est laborum.</li></ol>"
+                "description": "Esse cillum dolore eu fugiat nulla pariatur. Accusantium doloremque laudantium, totam rem aperiam. <ol><li><b>Temporibus</b>: autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</li><li><b>Nihil</b>: molestiae consequatur, vel illum qui dolorem eum.</li><li><b>Qui</b>: officia deserunt mollit anim id est laborum.</li></ol>"
               },
               "4": {
                 "title": "nobis est eligendi optio?",
                 "description": "<b>Itaque earum rerum hic tenetur a sapiente delectus.</b> <i> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.</i> Duis aute irure dolor in reprehenderit in voluptate velit."
               }
-            },
-            "color": "muted",
-            "variant": "solid",
-            "type": "single",
-            "collapsible": true
-          },
-          "color": null,
-          "variant": null,
-          "size": null,
-          "hasPattern": false
+            }
+          }
         },
         "cta": {
           "template": "one-column",
@@ -557,10 +563,17 @@
       "block": {
         "slug": "demo",
         "template": "accordion",
-        "icon": {
-          "src": "/images/plus.svg",
-          "color": "current",
-          "animation": "rotate135"
+        "color": "muted",
+        "variant": "solid",
+        "trigger": {
+          "color": "inherit",
+          "variant": "solid",
+          "size": "md",
+          "icon": {
+            "src": "/images/plus.svg",
+            "animation": "rotate135",
+            "color": "current"
+          }
         },
         "items": {
           "0": {
@@ -575,8 +588,7 @@
             "title": "Is it animated?",
             "description": "Yes. It's animated by default, but you can disable it if you prefer."
           }
-        },
-        "color": "muted"
+        }
       }
     },
     "alert": {
