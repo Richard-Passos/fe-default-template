@@ -10,7 +10,7 @@ Visit the live [website](https://fetemplate.vercel.app)
 
 ## 📝 Description
 
-Welcome to the ultimate front-end template repository! My go-to starting point for front-end projects. Dive in and explore the meticulously crafted folder structure and components, meticulously designed using Shadcn/UI best practices. Start building your next masterpiece with ease and efficiency!
+Welcome to the ultimate front-end template repository! My go-to starting point for front-end projects. Dive into a meticulously crafted folder structure and a collection of components designed with best practices in mind. Whether you're building a simple website or a complex web application, this template will help you kickstart your project with ease and efficiency.
 
 <br/>
 
@@ -18,9 +18,11 @@ Welcome to the ultimate front-end template repository! My go-to starting point f
 
 Explore website's functionalities:
 
-- `Components`: A collection of meticulously crafted and neatly organized components, ready for integration and customization.
-- `Internalization`: Seamlessly handles internalization, ensuring your website can reach a global audience with ease.
-- `Data management`: Designed for effortless integration with any Headless CMS, streamlining data management for your front-end projects.
+- `Organized Folder Structure` Intuitive and well-organized to keep your project neat and manageable.
+- `Internalization` Seamlessly handles internalization, ensuring your website can reach a global audience with ease.
+- `Reusable Components` Pre-built components to speed up your development process.
+- `Best Practices` Designed following industry standards to ensure scalability and maintainability.
+- `Modern Technologies` Incorporates the latest front-end technologies and frameworks.
 
 <br/>
 
