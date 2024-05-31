@@ -4,10 +4,8 @@ module.exports = {
   content: [
     './src/app/**/*.{jsx,tsx}',
     './src/components/**/*.{jsx,tsx}',
-    './src/components/**/variants.{js,ts}',
-    './src/**/theme.{js,ts}'
+    './src/theme.{js,ts}'
   ],
-  safelist: ['light', 'dark'],
   corePlugins: {
     preflight: false
   },
@@ -94,11 +92,11 @@ module.exports = {
       }
     },
     screens: {
-      xs: 'em(640px)',
-      sm: 'em(768px)',
-      md: 'em(1024px)',
-      lg: 'em(1280px)',
-      xl: 'em(1536px)'
+      sm: 'em(640px)',
+      md: 'em(768px)',
+      lg: 'em(1024px)',
+      xl: 'em(1280px)',
+      '2xl': 'em(1536px)'
     }
   }
 };
